@@ -1107,6 +1107,8 @@ static int32_t glfm__onInputEvent(struct android_app *app, AInputEvent *event) {
                             key = (GLFMKey)(aKeyCode - AKEYCODE_0 + '0');
                         } else if (aKeyCode >= AKEYCODE_A && aKeyCode <= AKEYCODE_Z) {
                             key = (GLFMKey)(aKeyCode - AKEYCODE_A + 'A');
+                        } else if (aKeyCode >= AKEYCODE_BUTTON_A && aKeyCode <= AKEYCODE_BUTTON_MODE) {
+                            key = (GLFMKey)(aKeyCode - AKEYCODE_BUTTON_A + GLFMKeyButtonA);
                         } else {
                             key = (GLFMKey)0;
                         }

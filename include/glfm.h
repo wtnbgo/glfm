@@ -222,6 +222,23 @@ typedef enum {
     GLFMKeyNavMenu = 0x1001,
     GLFMKeyNavSelect = 0x1002,
     GLFMKeyPlayPause = 0x2000,
+
+    GLFMKeyButtonA = 0x60,
+    GLFMKeyButtonB = 0x61,
+    GLFMKeyButtonC = 0x62,
+    GLFMKeyButtonX = 0x63,
+    GLFMKeyButtonY = 0x64,
+    GLFMKeyButtonZ = 0x65,
+    GLFMKeyButtonL1 = 0x66,
+    GLFMKeyButtonR1 = 0x67,
+    GLFMKeyButtonL2 = 0x68,
+    GLFMKeyButtonR2 = 0x69,
+    GLFMKeyButtonTL = 0x6A,
+    GLFMKeyButtonTR = 0x6B,
+    GLFMKeyButtonStart = 0x6C,
+    GLFMKeyButtonSelect = 0x6D,
+    GLFMKeyButtonMode = 0x6E,
+
 } GLFMKey;
 
 typedef enum {
